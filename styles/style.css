@@ -41,6 +41,9 @@ img {
     */
 }
 
+#hola.boton.zelda{}
+/*<elemento id="hola" class="boton zelda">*/
+
 .boton.zelda {
     background-image: url("../zelda.jpeg");
     background-size: cover;
