@@ -3,10 +3,9 @@
   <head>
     <title>Videojuegos</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <style></style>
   </head>
   <body>
-    <style>
-    </style>
     <header id="header">
       <h2 id="titulo">Videojuegos</h2>
       <nav>
@@ -17,7 +16,9 @@
             >
           </li>
           <li class="lista">
-            <a class="boton zelda" href="./paginas/zelda">The legend of Zelda</a>
+            <a class="boton zelda" href="./paginas/zelda"
+              >The legend of Zelda</a
+            >
           </li>
           <li><a href="./mario-kart.html">Mario Kart</a></li>
         </ul>
@@ -36,11 +37,26 @@
     </header>
     <!-- Inline -->
     <img
-      style="height: 200px; border: 1px solid red"
+      id="mario"
+      class="imagen"
+      style="
+        width: 100%;
+        border: 1px solid green;
+        position: absolute;
+        z-index: -1;
+        height: 180vh;
+        opacity: 0.2;
+        top: 1px;
+      "
       src="./Mario_New_Super_Mario_Bros_U_Deluxe.webp"
     />
     <img
+      class="imagen"
       src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg"
+    />
+
+    <img 
+      src="./images/perrito.jpg"
     />
     <div></div>
 
